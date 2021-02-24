@@ -47,7 +47,7 @@ set=(event)=>{
  alert("Thanks buddy");
  console.log(this.state);
   console.log("this is from set");
-  axios.post("http://127.0.0.1:5000/setproblem",this.state);
+  axios.post("https://yashavreact.herokuapp.com/setproblem",this.state);
 
 }
 
