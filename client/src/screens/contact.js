@@ -35,7 +35,10 @@ detail=()=>{
    console.log("well come back dear!!");
    //  this.setState({name:obj.name,email:obj.email,feedback:obj.feedback});
      console.log(this.state);
-   axios.post("http://127.0.0.1:5000/details",this.state);
+   axios.get("https://yashavreact.herokuapp.com/reviewdata",this.state)
+     .then((response) => {
+         console.log("nahi ho raha kya");
+      });
 
    this.alertBox();
 }
