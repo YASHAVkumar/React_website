@@ -19,7 +19,7 @@ class ShowProblem extends React.Component{
       url='{"'+url+'"}';
       var obj=JSON.parse(url);
      console.log(obj.id);
-     axios.post("http://127.0.0.1:5000/findone",obj)
+     axios.post("https://yashavreact.herokuapp.com/findone",obj)
      .then((response)=>{
          console.log(response.data);
          var obj=response.data;
