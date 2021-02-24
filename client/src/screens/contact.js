@@ -40,7 +40,7 @@ detail=()=>{
          console.log("nahi ho raha kya");
       });
 
-   this.alertBox();
+  // this.alertBox();
 }
 
 
