@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nIAbhCtexbCMGViq2LYMl0bzr0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,14 +24,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Nodejs\yash\data_structure_c\server" />
+      <recent name="F:\Nodejs\yash\data_structure_c\client\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Nodejs\yash\data_structure_c\server\client" />
       <recent name="F:\Nodejs\yash\data_structure_c\server" />
       <recent name="F:\Nodejs\yash\data_structure_c\server\config" />
       <recent name="F:\Nodejs\yash\data_structure_c\client\src\components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Nodejs\yash\data_structure_c\client\src" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -68,18 +69,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="428" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1613249824763" />
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1613301734454">
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1613927486966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613301734454" />
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613927486966" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1611169448866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1611169448866" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1613301585971">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1613927066754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1613301585971" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1613927066754" />
     <state x="65" y="0" key="new project wizard" timestamp="1612325120690">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

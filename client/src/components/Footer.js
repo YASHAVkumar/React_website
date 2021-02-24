@@ -4,9 +4,9 @@ class Footer extends React.Component{
 
  render(){
        return(
-          <div className="container-fluid " style={{background:'black'}}>
+          <div className="container-fluid " style={{background:'black',fontSize:'2vw'}}>
 
-              <div className="container-fluid text-info my-3 pt-3 sticky-bottom">
+              <div className="container-fluid text-info my-3 pt-3 sticky-bottom" >
                   <h3><u>About C Language</u></h3>
 
                   <ol>

@@ -24,6 +24,14 @@
   color: white;
 }
 
+tbody{
+font-size:3vw;
+}
+tbody input{
+ width:50px;
+}
+
+
 .App-link {
   color: #61dafb;
 }

@@ -37,8 +37,15 @@ const Reviews=mongoose.model('Reviews');
 
 //app.use(require("./routes/Review_set"));
 /****************************Feed back Details****************************/
-app.post("/details",(req,res)=>{
-   //res.json({msg:"Good work buddy"});
+app.get("/server",(req,res)=>{
+  console.log("Easy Job");
+  res.json({msg:"Server side"});
+  res.end();
+})
+
+
+app.get("/reviewdata",(req,res)=>{
+   res.json({msg:"Good work buddy"});
    const {name,email,feedback}=req.body;
 
    const object=new Reviews(
@@ -66,6 +73,31 @@ app.post("/details",(req,res)=>{
    res.end();
 })
 
+app.post("/details",(req,res)=>{
+   res.json({msg:"Good work buddy"});
+   const {name,email,feedback}=req.body;
+
+   const object=new Reviews(
+   {
+     _id:new mongoose.Types.ObjectId,
+     Name:name,
+     Email:email,
+     Feedback:feedback,
+   });
+   object.save()
+   .then(
+   (response)=>{
+      console.log(response);
+      }
+   )
+    .catch((err)=>{
+         console.log(err);
+         res.status(500).json({msg:"Please recheck the data"})
+         })
+
+
+   res.end();
+})
 /******************************************setProblem ********************/
 app.post("/setproblem",(req,res)=>{
  //console.log(req.body);
@@ -195,15 +227,15 @@ res.end();
 
 
 /*********************************Server Response **********************************/
-//if(process.env.NODE_ENV==='production')
-// {
-//    app.use(express.static('client/build'));
-//    const path=require('path')
-//    app.get("*",(req,res)=>{
-//    res.sendFile(path.resolve(_dirname,'client','build','index.html'))
-//    })
-//  }
+if(process.env.NODE_ENV==='production')
+ {
+    //app.use(express.static('client/build'));
+    const path=require('path')
+    app.get("*",(req,res)=>{
+    res.sendFile(path.resolve(_dirname,'client','index.html'))
+    })
+  }
 
-var Port=process.env.Port||5000;
+var port=process.env.PORT||5000;
 
-app.listen(Port,()=>{console.log("express is working now "+Port);})
+app.listen(port,()=>{console.log("express is working now "+port);console.log(process.env.PORT);})
