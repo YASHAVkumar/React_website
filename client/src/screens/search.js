@@ -16,7 +16,7 @@ class Search extends React.Component{
          url='{"'+url+'"}';
          var obj=JSON.parse(url);
         console.log(obj.input);
-        axios.post("http://127.0.0.1:5000/findbytag",obj)
+        axios.post("https://yashavreact.herokuapp.com/findbytag",obj)
         .then((response)=>{
            // console.log(response.data);
             var obj=response.data;
