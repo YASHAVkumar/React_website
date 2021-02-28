@@ -15,7 +15,7 @@ this.getRequest();
 };
  getRequest=()=>{
  //console.log("this is in home page get ");
- axios.get("http://127.0.0.1:5000/findall")
+ axios.get("https://yashavreact.herokuapp.com/findall")
   .then((response) => {
        //   console.log(response.data[0]._id);
            this.setState({problems:response.data});
