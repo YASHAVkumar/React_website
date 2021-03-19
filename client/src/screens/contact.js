@@ -30,9 +30,10 @@ alertBox=()=>{
 }
 
 
-detail=()=>{
-
+detail=(event)=>{
+   event.preventDefault();
    console.log("well come back dear!!");
+   
    //  this.setState({name:obj.name,email:obj.email,feedback:obj.feedback});
      console.log(this.state);
    axios.get("https://yashavreact.herokuapp.com/reviewdata",this.state)
