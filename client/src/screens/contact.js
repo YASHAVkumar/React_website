@@ -70,7 +70,7 @@ render()
           				<div className="col-sm-6">
           			        <div><h1 style={{fontSize:'3vw'}}><u>Please Send Your Feedback!!</u></h1></div>
 
-          					<form action="/" method='GET' onSubmit={this.detail}>
+          					<form action="#" method='GET' onSubmit={this.detail}>
 
                              <table className="table text-light">
           					  <tbody>
