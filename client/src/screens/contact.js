@@ -36,7 +36,7 @@ detail=(event)=>{
    
    //  this.setState({name:obj.name,email:obj.email,feedback:obj.feedback});
      console.log(this.state);
-   axios.get("https://yashavreact.herokuapp.com/reviewdata",this.state)
+   axios.post("https://yashavreact.herokuapp.com/details",this.state)
      .then((response) => {
          console.log("nahi ho raha kya");
       });
