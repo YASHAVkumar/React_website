@@ -8,7 +8,7 @@ constructor(props)
 {
    super(props);
   this.state={
-    'name':'','email':'','feedback':''
+    "name":'',"email":'',"feedback":''
   }
 }
 
@@ -37,7 +37,7 @@ detail=(event)=>{
    //  this.setState({name:obj.name,email:obj.email,feedback:obj.feedback});
      console.log(this.state);
    //var obj=JSON.parse(this.state);
-   axios.post("https://yashavreact.herokuapp.com/details",this.state)
+   axios.get("https://yashavreact.herokuapp.com/reviewdata",this.state)
      .then((response) => {
          console.log("nahi ho raha kya");
       });
