@@ -43,7 +43,7 @@ func=(event)=>{
 }
 
 set=(event)=>{
-
+ event.preventDefault();
  alert("Thanks buddy");
  console.log(this.state);
   console.log("this is from set");
