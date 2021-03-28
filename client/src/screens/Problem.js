@@ -68,7 +68,7 @@ set=(event)=>{
 
 
           <div className="container ml-5 shadow-sm">
-            <form action="#" method="POST" onSubmit={this.set}>
+            <form action="/" method="POST" onSubmit={this.set}>
                 <div className="form-group">
                     <h1 for="ProblemName">Enter Your Problem Name</h1>
                     <textarea className="form-control" name="name" row="2" maxlength="50" required placeholder="Enter text here" onChange={this.func.bind(this)}></textarea>
